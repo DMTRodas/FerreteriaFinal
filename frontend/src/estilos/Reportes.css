@@ -1,0 +1,29 @@
+.reportes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.reportes-container h2 {
+    margin-bottom: 20px;
+}
+
+.reportes-container button {
+    width: 200px;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #141815;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reportes-container button:hover {
+    background-color: #45a049;
+}

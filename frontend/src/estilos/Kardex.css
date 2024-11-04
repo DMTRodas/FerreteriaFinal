@@ -1,0 +1,84 @@
+.kardex-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kardex-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.movimientos-lista {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.movimientos-lista li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #333;
+}
+
+.registro-formulario {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.registro-formulario input,
+.registro-formulario select,
+.registro-formulario button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.registro-formulario input,
+.registro-formulario select {
+    flex: 1;
+    max-width: 150px;
+}
+
+.registro-formulario button {
+    background-color: #0d0d0e;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.registro-formulario button:hover {
+    background-color: #0056b3;
+}
+
+.descargar-reporte-btn {
+    background-color: #0d0e0d;
+    color: white;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.descargar-reporte-btn:hover {
+    background-color: #45a049;
+}
+

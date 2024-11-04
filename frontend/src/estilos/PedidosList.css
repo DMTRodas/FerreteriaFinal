@@ -1,0 +1,55 @@
+.pedidos-container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pedidos-lista {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.pedidos-lista li {
+    margin: 8px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    color: #333;
+}
+
+.agregar-pedido-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr auto;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.agregar-pedido-form input,
+.agregar-pedido-form select,
+.agregar-pedido-form button {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.agregar-pedido-form button {
+    background-color: #151516;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.agregar-pedido-form button:hover {
+    background-color: #0056b3;
+}
+
